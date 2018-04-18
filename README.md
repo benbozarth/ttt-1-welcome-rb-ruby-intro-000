@@ -42,7 +42,7 @@ The solution to this is to make sure you have `puts "Welcome to Tic Tac Toe!"` i
 When you run `learn` you might see failing tests even though your program seemingly works. The failures might read something like:
 
 ```
-1) lib/welcome.rb prints "Welcome to Tic Tac Toe!"
+1) lib/welcome.rb puts "Welcome to Tic Tac Toe!"
    Failure/Error: load './lib/welcome.rb'
      #<IO:0x007fa2b28325a0> received :puts with unexpected arguments
        expected: ("Welcome to Tic Tac Toe!")
@@ -53,7 +53,7 @@ When you run `learn` you might see failing tests even though your program seemin
 Or something that looks like:
 
 ```
-1) lib/welcome.rb prints "Welcome to Tic Tac Toe!"
+1) lib/welcome.rb puts "Welcome to Tic Tac Toe!"
    Failure/Error: load './lib/welcome.rb'
      #<IO:0x007fa2b28325a0> received :puts with unexpected arguments
        expected: ("Welcome to Tic Tac Toe!")
